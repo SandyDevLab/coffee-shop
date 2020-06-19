@@ -12,6 +12,7 @@ const Preview = () => {
                         <Header />
                     </div>
                 </div> */}
+                
                 <div className="row">
                     <div className="col-lg-10 offset-lg-1">
                         <h1 className="title-big">
