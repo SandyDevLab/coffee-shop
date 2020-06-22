@@ -11,9 +11,9 @@ const PageListItem = props => {
             <div className="shop__item-price">{props.price}</div>
 
             <button className="snipcart-add-item"
-                data-item-id={props.price}
+                data-item-id={props.price.replace('$', '')}
                 data-item-price={props.price.replace('$', '')}
-                data-item-url={props.url}
+                data-item-url="/"
                 data-item-image={props.url}
                 data-item-name={props.name}>
             Add to cart
